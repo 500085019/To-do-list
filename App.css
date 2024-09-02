@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+  background-color: #f4f7f6;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the todo list */
+.todo-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header styles */
+.todo-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.todo-header h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #007bff;
+}
+
+/* List item styles */
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.list-group-item:hover {
+  background-color: #f1f1f1;
+}
+
+.todo-item-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.todo-item-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  border-radius: 50px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  color: #ffffff;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  color: #ffffff;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Form styles */
+.add-task-form {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.add-task-form input {
+  border-radius: 50px;
+  padding: 10px 15px;
+  border: 1px solid #ced4da;
+}
+
+.add-task-form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.add-task-form button {
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.add-task-form button:hover {
+  background-color: #0056b3;
+}
